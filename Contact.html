@@ -1,13 +1,39 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Information</title>
+    <link rel="stylesheet" href="contact.css" />
 </head>
-<meta name=" viewport" content="width=device-width, initial-scale=1.0">
-<!--the code allow the webpage to be reactive and adjust according to screen size-->
-<link rel="stylesheet" href="Computer_DIY_styling.css">
-
 <body bgcolor="black">
-    <h2>About</h2>
-    <p>This is a paragraph.................
-    </p>
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to get in touch, please use the contact form below or reach out through the provided contact details.</p>
+
+    <h3>Contact Form</h3>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <input type="submit" value="Send" />
+    </form>
+
+    <h3>Contact Details</h3>
+    <ul>
+        <li>Email: support@example.com</li>
+        <li>Phone: +1 (555) 123-4567</li>
+        <li>Address: 1234 Main St, Anytown, USA</li>
+        <li>Follow us on:
+            <a href="https://twitter.com/example" target="_blank">Twitter</a>,
+            <a href="https://facebook.com/example" target="_blank">Facebook</a>,
+            <a href="https://linkedin.com/company/example" target="_blank">LinkedIn</a>
+        </li>
+    </ul>
 </body>
+</html>

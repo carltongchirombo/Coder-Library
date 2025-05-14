@@ -1,13 +1,38 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CMD Commands</title>
+    <link rel="stylesheet" href="CMD_styling.css" />
 </head>
-<meta name=" viewport" content="width=device-width, initial-scale=1.0">
-<!--the code allow the webpage to be reactive and adjust according to screen size-->
-<link rel="stylesheet" href="CMD_styling.css">
-
 <body bgcolor="black">
-    <h2>About</h2>
-    <p>This is a paragraph.................
+    <h2>Command Prompt (CMD) Commands</h2>
+    <p>
+        The Command Prompt (CMD) is a command-line interpreter application available in most Windows operating systems. It allows users to execute commands to perform various tasks such as file management, network configuration, and system troubleshooting.
     </p>
+
+    <h3>Commonly Used CMD Commands</h3>
+    <ul>
+        <li><strong>dir</strong>: Lists the files and directories in the current directory.<br />Example: <code>dir</code></li>
+        <li><strong>cd</strong>: Changes the current directory.<br />Example: <code>cd C:\Users</code></li>
+        <li><strong>copy</strong>: Copies one or more files to another location.<br />Example: <code>copy file.txt D:\Backup</code></li>
+        <li><strong>del</strong>: Deletes one or more files.<br />Example: <code>del file.txt</code></li>
+        <li><strong>ipconfig</strong>: Displays network configuration details.<br />Example: <code>ipconfig /all</code></li>
+        <li><strong>ping</strong>: Tests connectivity to a network host.<br />Example: <code>ping google.com</code></li>
+        <li><strong>netstat</strong>: Displays active network connections and listening ports.<br />Example: <code>netstat -an</code></li>
+        <li><strong>tasklist</strong>: Lists all running processes.<br />Example: <code>tasklist</code></li>
+        <li><strong>shutdown</strong>: Shuts down or restarts the computer.<br />Example: <code>shutdown /s /t 0</code> (shutdown immediately)</li>
+        <li><strong>cls</strong>: Clears the command prompt screen.<br />Example: <code>cls</code></li>
+    </ul>
+
+    <h3>Tips for Using CMD Effectively</h3>
+    <ul>
+        <li>Use <code>help</code> followed by a command name to get detailed information about that command. Example: <code>help dir</code></li>
+        <li>Use tab completion to quickly complete file and directory names.</li>
+        <li>Run CMD as administrator to execute commands that require elevated privileges.</li>
+        <li>Use command chaining with <code>&amp;&amp;</code> or <code>||</code> to execute multiple commands conditionally.</li>
+        <li>Redirect output to files using <code>></code> or <code>>></code> operators.</li>
+    </ul>
 </body>
+</html>
