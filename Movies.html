@@ -1,13 +1,79 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Movies</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Related Movies</title>
+    <link rel="stylesheet" href="Movies_styling.css" />
+    <style>
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        article {
+            background-color: #111;
+            border: 1px solid rgb(20, 220, 20);
+            border-radius: 8px;
+            padding: 10px;
+            width: 200px;
+            color: rgb(20, 220, 20);
+            font-family: 'Courier New', Courier, monospace;
+        }
+        article img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        article h3 {
+            margin: 10px 0 5px 0;
+        }
+        article a {
+            color: rgb(20, 220, 20);
+            text-decoration: none;
+        }
+        article a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<meta name=" viewport" content="width=device-width, initial-scale=1.0">
-<!--the code allow the webpage to be reactive and adjust according to screen size-->
-<link rel="stylesheet" href="Movies_styling.css">
-
 <body bgcolor="black">
-    <h2>Movies</h2>
-    <p>This is a paragraph.................
-    </p>
+    <h2>IT Related Movies</h2>
+    <section>
+        <article>
+            <a href="https://www.imdb.com/title/tt1285016/" target="_blank" rel="noopener noreferrer">
+                <img src="images/social_network.jpg" alt="The Social Network Poster" />
+                <h3>The Social Network</h3>
+            </a>
+            <p>The story of Facebook's founding and the legal battles that followed.</p>
+        </article>
+        <article>
+            <a href="https://www.imdb.com/title/tt2080374/" target="_blank" rel="noopener noreferrer">
+                <img src="images/steve_jobs.jpg" alt="Steve Jobs Poster" />
+                <h3>Steve Jobs</h3>
+            </a>
+            <p>A biographical drama about the life and career of Apple co-founder Steve Jobs.</p>
+        </article>
+        <article>
+            <a href="https://www.imdb.com/title/tt0113243/" target="_blank" rel="noopener noreferrer">
+                <img src="images/hackers.jpg" alt="Hackers Poster" />
+                <h3>Hackers</h3>
+            </a>
+            <p>A cult classic about a group of young hackers uncovering a conspiracy.</p>
+        </article>
+        <article>
+            <a href="https://www.imdb.com/title/tt0084827/" target="_blank" rel="noopener noreferrer">
+                <img src="images/tron.jpg" alt="Tron Poster" />
+                <h3>Tron</h3>
+            </a>
+            <p>A computer programmer is transported into a digital world inside a computer system.</p>
+        </article>
+        <article>
+            <a href="https://www.imdb.com/title/tt0086567/" target="_blank" rel="noopener noreferrer">
+                <img src="images/wargames.jpg" alt="WarGames Poster" />
+                <h3>WarGames</h3>
+            </a>
+            <p>A teenager accidentally hacks into a military supercomputer and nearly starts World War III.</p>
+        </article>
+    </section>
 </body>
+</html>
